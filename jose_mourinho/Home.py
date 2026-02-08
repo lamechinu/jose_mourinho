@@ -123,9 +123,10 @@ with c2:
     # IMAGE LOGIC
     # Make sure 'pic5.jpeg' is inside 'images' folder
     try:
-        st.image("images/pic5.jpeg", caption="The Birthday Girl 💖", use_container_width=True)
+        st.image("jose_mourinho/images/pic5.jpeg", caption="The Birthday Girl 💖", use_container_width=True)
     except:
         st.error("Image not found! Check if file is named 'pic5.jpeg' inside 'images' folder.")
 
 st.write("---")
 st.markdown("<center>👆 <b>Use the Navigation Bar above to open your gifts!</b></center>", unsafe_allow_html=True)
+
