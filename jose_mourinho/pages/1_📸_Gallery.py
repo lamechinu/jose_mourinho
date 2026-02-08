@@ -102,7 +102,7 @@ st.write("")
 # --- PHOTO 1 (Left Image) ---
 c1, c2 = st.columns([1, 1.2], gap="large")
 with c1:
-    st.image("images/pic4.jpeg", use_container_width=True)
+    st.image("jose_mourinho/images/pic4.jpeg", use_container_width=True)
 with c2:
     st.markdown("""
     <div class="caption-box">
@@ -131,14 +131,14 @@ with c1:
     </div>
     """, unsafe_allow_html=True)
 with c2:
-    st.image("images/pic2.jpeg", use_container_width=True)
+    st.image("jose_mourinho/images/pic2.jpeg", use_container_width=True)
 
 st.write("---")
 
 # --- PHOTO 3 (Left Image) ---
 c1, c2 = st.columns([1, 1.2], gap="large")
 with c1:
-    st.image("images/pic3.jpeg", use_container_width=True)
+    st.image("jose_mourinho/images/pic3.jpeg", use_container_width=True)
 with c2:
     st.markdown("""
     <div class="caption-box">
@@ -167,14 +167,14 @@ with c1:
     </div>
     """, unsafe_allow_html=True)
 with c2:
-    st.image("images/pic5.jpeg", use_container_width=True)
+    st.image("jose_mourinho/images/pic5.jpeg", use_container_width=True)
 
 st.write("---")
 
 # --- PHOTO 5 (Left Image) ---
 c1, c2 = st.columns([1, 1.2], gap="large")
 with c1:
-    st.image("images/pic1.jpeg", use_container_width=True)
+    st.image("jose_mourinho/images/pic1.jpeg", use_container_width=True)
 with c2:
     st.markdown("""
     <div class="caption-box">
@@ -204,7 +204,8 @@ with c1:
     """, unsafe_allow_html=True)
 with c2:
     # Make sure file name is pic6.jpeg (ya jpg)
-    st.image("images/pic6.jpeg", use_container_width=True)
+    st.image("jose_mourinho/images/pic6.jpeg", use_container_width=True)
 
 st.write("---")
+
 st.markdown("<center>💖 <b>More memories to be created...</b></center>", unsafe_allow_html=True)
